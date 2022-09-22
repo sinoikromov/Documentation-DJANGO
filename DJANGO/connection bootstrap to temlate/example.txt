@@ -1,0 +1,9 @@
+1) First wee need to add a static folder in app directory
+2) create another directory the name app if name app is 'quiz' name folder 'quiz'
+3) load static
+{% load static %}
+<link
+    rel = "stylesheet"
+    type="text/css"
+    href="{% static 'quiz/css/bootstrap.css' %}"
+/>

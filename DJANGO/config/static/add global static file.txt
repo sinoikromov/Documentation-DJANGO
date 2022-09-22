@@ -1,0 +1,8 @@
+1) make direction in main directory named "static"
+2) for adding image need add folder "img"
+3) add new line in settigs.py
+
+STATIC_URL = 'static/'
+STATICFILES_DIR = [
+    os.path.join(BASE_DIR, "static")
+]
